@@ -13,8 +13,6 @@ app.use('/api/sack', require('./routes/api/sack'));
 
 const port = process.env.PORT || 5000;
 
-console.log(process.env.NODE_ENV);
-
 // Serve static assets if in production
 if (process.env.NODE_ENV === 'production') {
   // Set static folder
